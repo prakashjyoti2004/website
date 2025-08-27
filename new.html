@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Apps</title>
+    <style>/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f); /* soft gradient */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+div {
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 25px;
+    color: #b23c17;
+    font-size: 2rem;
+}
+
+/* App Links styled as buttons */
+a {
+    display: block;
+    margin: 12px 0;
+    padding: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Different colors for each app */
+a[href*="instagram"] { background: #E1306C; }
+a[href*="facebook"]  { background: #1877F2; }
+a[href*="google"]    { background: #4285F4; }
+a[href*="amazon"]    { background: #FF9900; color: black; }
+a[href*="adidas"]    { background: black; }
+a[href*="chrome"]    { background: #34A853; }
+
+/* Hover effect */
+a:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
+</style>
+</head>
+<body>
+  <div>
+    <h1>TOUCH TO USE</h1>
+    <a href="https://instagram.com"target=blank>Instagram</a>
+    <a href="https://www.facebook.com"target=blank>Facebook</a>
+    <a href="https://www.google.com"target=blank>Google</a>
+    <a href="https://www.amazon.in"target=blank>Amazon</a>
+    <a href="https://www.adidas.co.in"target=blank>Adidas</a>
+    <a href="https://www.google.com"target=blank>Chrome</a>
+    
+  </div>  
+</body>
+</html>
